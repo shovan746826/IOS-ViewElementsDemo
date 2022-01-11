@@ -61,6 +61,15 @@
 			path = Functions;
 			sourceTree = "<group>";
 		};
+		6543438A278E16FD00DF954D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6557CF99278C2F6C002CF2D4 /* ViewElementsDemoApp.swift */,
+				6557CF9B278C2F6C002CF2D4 /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		6557CF8D278C2F6C002CF2D4 = {
 			isa = PBXGroup;
 			children = (
@@ -80,11 +89,10 @@
 		6557CF98278C2F6C002CF2D4 /* ViewElementsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6557CF99278C2F6C002CF2D4 /* ViewElementsDemoApp.swift */,
-				6557CF9B278C2F6C002CF2D4 /* ContentView.swift */,
 				6557CF9D278C2F75002CF2D4 /* Assets.xcassets */,
-				65434381278E116400DF954D /* Functions */,
+				6543438A278E16FD00DF954D /* Main */,
 				65434380278E10DB00DF954D /* Views */,
+				65434381278E116400DF954D /* Functions */,
 				6557CF9F278C2F75002CF2D4 /* Preview Content */,
 			);
 			path = ViewElementsDemo;
