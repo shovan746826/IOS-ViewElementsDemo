@@ -40,7 +40,7 @@ struct OTPView: View {
             Spacer()
             
             if isPadShow{
-                NumberPadView(codes: $code, isPadShow: $isPadShow)
+                NumberPadView(text: $code, isPadShow: $isPadShow)
             }
         }
     }
