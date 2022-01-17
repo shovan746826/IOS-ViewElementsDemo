@@ -9,29 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var isShow: Bool = false
-    @State var isAnimate: Bool = false
-    
     var body: some View {
         
-        
         ZStack{
-            
-            
-            Button(action: {
-                withAnimation{
-                    isShow = true
-                    isAnimate = true
-                }
-            }, label: {
-                Text("Show Popup")
-                    .foregroundColor(.black)
-            })
-            
-            CustomModalPopupView(isShow: $isShow, isAnimate: $isAnimate)
+            NavigationView{
+                PickerStyleView()
+            }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(.blue)
        
     }
 }

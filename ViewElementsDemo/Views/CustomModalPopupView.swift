@@ -38,7 +38,6 @@ struct CustomModalPopupView: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
         .animation(Animation.easeInOut(duration: 1.5), value: true)
-//        .animation(.easeInOut)
         .ignoresSafeArea()
     }
 }
