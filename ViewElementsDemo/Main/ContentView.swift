@@ -13,7 +13,7 @@ struct ContentView: View {
         
         ZStack{
             NavigationView{
-                PickerStyleView()
+                MultiLanguageView()
             }
         }
        
